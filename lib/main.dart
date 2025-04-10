@@ -16,7 +16,7 @@ class DealerCollectionApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => LoginBloc(loginRepository: LoginRepository()),
       child: MaterialApp(
-        title: 'Dealer Collection',
+        title: 'Bayi Geliyo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
           useMaterial3: true,
